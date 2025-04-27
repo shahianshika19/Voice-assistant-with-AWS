@@ -16,7 +16,7 @@ import { Brain, MessageCircle, Zap, ArrowRight } from 'lucide-react';
 import CountUp from 'react-countup';
 
 const AnimatedTitle = () => {
-  const words = "Your Custom Support Vala Assistant".split(" ");
+  const words = "Your Custom Support Assistant".split(" ");
   
   const container = {
     hidden: { opacity: 0 },
@@ -118,7 +118,7 @@ const fadeIn = {
 const stats = [
   { value: 99, label: "Accuracy", suffix: "%" },
   { value: 24, label: "Support", suffix: "/7" },
-  { value: 50000, label: "Potential Users", suffix: "+" }
+  // { value: 50000, label: "Potential Users", suffix: "+" }
 ];
 
 export default function Home() {
@@ -161,7 +161,7 @@ export default function Home() {
 
         {/* Stats Section */}
         <motion.section
-          className="grid grid-cols-2 md:grid-cols-3 gap-8 mb-24"
+          className="grid grid-cols-2 md:grid-cols-2 gap-8 mb-24"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
@@ -240,7 +240,7 @@ export default function Home() {
         </motion.section>
 
         {/* CTA Section */}
-        <motion.section
+        {/* <motion.section
           className="text-center"
           initial="initial"
           whileInView="animate"
@@ -258,7 +258,7 @@ export default function Home() {
               </Button>
             </CardContent>
           </Card>
-        </motion.section>
+        </motion.section> */}
       </div>
     </div>
   );

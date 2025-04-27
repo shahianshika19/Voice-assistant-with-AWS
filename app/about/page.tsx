@@ -2,10 +2,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const teamMembers = [
-  { name: 'Ayush Awasthi', role: 'Team Leader and AI Developer', github: 'https://www.github.com/AyushAwasthi2384', linkedin: 'https://www.linkedin.com/in/ayush2384' },
-  { name: 'Ayush Gauniyal', role: 'Full Stack Developer', github: 'https://www.github.com/agpersonal6104', linkedin: 'https://www.linkedin.com/in/ayush-gauniyal-15ba7b2b3/' },
-  { name: 'Amay Mishra', role: 'UI/UX Designer and Frontend Developer', github: 'https://www.github.com/crucie', linkedin: 'https://www.linkedin.com/in/kshimate/' },
-  { name: 'Avichal Saxena', role: 'Project Planner', github: '#', linkedin: 'https://www.linkedin.com/in/avichal-saxena-709396331/' },
+  { name: 'Anshika Shahi', role: 'Full Stack Developer and AI Developer', github: 'https://github.com/shahianshika19', linkedin: 'https://www.linkedin.com/in/anshikas2003' },
 ]
 
 export default function About() {

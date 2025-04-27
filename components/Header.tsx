@@ -6,7 +6,7 @@ export default function Header() {
     <header className="bg-white shadow-sm">
       <nav className="mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
-          LA_LIT
+        Shahi Assistant
         </Link>
         <div className="space-x-4">
           <Button variant="ghost" asChild>
