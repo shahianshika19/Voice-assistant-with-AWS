@@ -67,8 +67,11 @@ export default function Chatbot() {
   }
 
   useEffect(() => {
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
-    if (SpeechRecognition) {
+    // const SpeechRecognition = window?.SpeechRecognition || window?.webkitSpeechRecognition
+
+    const SpeechRecognition =
+    (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+      if (SpeechRecognition) {
       const recognition = new SpeechRecognition()
       recognition.continuous = false
       recognition.interimResults = false
