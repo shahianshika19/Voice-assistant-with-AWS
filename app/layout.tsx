@@ -9,7 +9,7 @@ import DisableInspect from '@/components/DisableInspect'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ShahiGPT | Your Custom Support Vala',
+  title: 'ShahiGPT | Your Custom Support Assistant',
   description: 'Sentiment Analysis and Chatbot Project',
 }
 
@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" type="image/png" href="/favicon.png" />
-        <title>ShahiGPT | Your Custom Support Vala</title>
+        <title>ShahiGPT | Your Custom Support Assistant</title>
       </head>
       <ToastProvider>
         <body className={inter.className}>
