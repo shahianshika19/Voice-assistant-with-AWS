@@ -122,5 +122,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 
-## Developed by [Ayush Awasthi🚀](https://www.github.com/AyushAwasthi2384) and team!
-(in half an hour😉)
