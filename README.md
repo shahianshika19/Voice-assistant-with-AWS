@@ -4,7 +4,7 @@ This project is a smart e-commerce support chatbot built with **Next.js**, **Goo
 
 ## Features
 
-- **AI-Powered Chatbot**: Powered by the Google Gemini API to provide intelligent responses.
+- **AI-Powered Chatbot**: Uses AI and ML algorithms to provide intelligent responses.
 - **Sentiment Analysis**: Analyzes the sentiment of user messages (positive, neutral, or negative).
 - **Local Data Storage**: Stores conversation history and sentiment data in `localStorage` for persistence.
 - **Feedback Collection**: Collects user feedback on products for sentiment tracking and insights.
